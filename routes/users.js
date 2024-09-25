@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const plm = require('passport-local-mongoose');
 
-mongoose.connect("mongodb://127.0.0.1:27017/tkrhub");
+mongoose.connect("mongodb+srv://kakuralasrisailam:V9FGL5nMSOOeN2oV@tibcluster.8qi9c.mongodb.net/?retryWrites=true&w=majority&appName=tibCluster");
 
 const userSchema = new mongoose.Schema({
   username: {
