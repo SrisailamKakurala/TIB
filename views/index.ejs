@@ -1,0 +1,195 @@
+<%- include('./partials/header') %>
+
+    <main class="relative top-0 max-w-[2000px] mx-auto my-0">
+        <div id="logostart" class="w-full h-screen bg-[#24E400] fixed z-50 top-0 flex justify-center items-center">
+            <img src="../images/1000117438-removebg-preview.png" alt="" class="w-[15vw]" />
+        </div>
+        <div id="page1" class="w-[85%] mx-auto my-0 h-screen relative">
+            <nav id="nav" class="h-[12vh] flex justify-between items-center">
+                <div class="text-white lg:inline hidden text-3xl">
+                    <span class="text-[#24E400]">TKR</span> Interview Bits
+                </div>
+                <div class="text-white lg:hidden text-3xl">
+                    <span class="text-[#24E400]">T</span>IB
+                </div>
+                <div class="flex lg:gap-5 gap-3">
+                    <a href="/login"><button
+                            class="px-4 rounded-md py-2 bg-[#24E400] text-white duration-200 hover:bg-[#26F500]">Login</button></a>
+                    <a href="/signup"><button
+                            class="px-3 rounded-md py-2 bg-slate-100 text-[#24E400] duration-200 hover:bg-white">Register</button></a>
+                </div>
+            </nav>
+
+
+            <div id="contentp1" class="w-full lg:py-10 py-2 h-auto lg:flex gap-4 items-center">
+                <div id="leftp1"
+                    class="lg:w-[50%] md:w-[100%] w-[100%] lg:h-[70vh] p-5 flex flex-col gap-3 justify-start items-start">
+                    <h1 class="lg:text-[4vw] text-[8vw] text-[#24E400]">Interview Insights</h1>
+                    <h2 class="lg:text-[2.5vw] text-[5vw] text-slate-200">Your guide to landing that dream job!</h2>
+                    <p class="lg:text-[1.8vw] text-[4vw] text-white mt-4">
+                        Discover the experiences and advice from TKR seniors on how to crack technical and HR
+                        interviews. Learn from their successes, challenges, and tips to enhance your preparation.
+                    </p>
+                </div>
+                <!-- Hide image on md, sm, xs screens using hidden md:block for large screens only -->
+                <div id="rightp1"
+                    class="lg:w-[50%] w-[100%] lg:h-[70vh] lg:mt-0 mt-12 flex justify-center items-center">
+                    <img src="/images/hero.png" alt="Interview Insights Image"
+                        class="rounded-[50%] lg:w-[70%] w-[50%] shadow-blend-border drop-shadow-2xl">
+                </div>
+            </div>
+        </div>
+
+        <div class="h-[1px] w-[85%] mx-auto bg-white mt-3">
+        </div>
+
+        <!-- Benefits Section -->
+        <div id="page2" class="w-[85%] mx-auto pt-10 lg:pb-16 pb-10 relative">
+            <div class="flex justify-center mb-7">
+                <h1 class="text-3xl text-lime-500">Benefits</h1>
+            </div>
+            <div id="cardsp2" class="w-full h-auto flex lg:flex-row md:flex-col flex-col justify-between items-center gap-5 px-3">
+                <div class="w-full lg:w-[30%]">
+                    <div class="mb-5 h-[250px] rounded-md overflow-hidden hover:scale-[1.05] duration-100">
+                        <img id="p2img" src="../images/2-img1.jpg" alt="Insights Image"
+                            class="h-full cursor-pointer hover:scale-[1.05] duration-100 rounded-md object-cover">
+                    </div>
+                    <div id="p2box" class="text-white text-md my-2 text-center">
+                        Get insights from real interviews conducted by top companies like Amazon, Google, and Microsoft, shared by your seniors.
+                    </div>
+                </div>
+                <div class="w-full lg:w-[30%]">
+                    <div class="mb-5 h-[250px] rounded-md overflow-hidden hover:scale-[1.05] duration-100">
+                        <img id="p2img" src="../images/p2-img2.png" alt="Interview Formats"
+                            class="h-full cursor-pointer hover:scale-[1.05] duration-100 rounded-md object-cover">
+                    </div>
+                    <div id="p2box" class="text-white text-md my-2 text-center">
+                        Learn about different interview formats, technical questions, and strategies to excel in each stage of the process.
+                    </div>
+                </div>
+                <div class="w-full lg:w-[30%]">
+                    <div class="mb-5 h-[250px] rounded-md overflow-hidden hover:scale-[1.05] duration-100">
+                        <img id="p2img" src="../images/p2-img3.png" alt="Challenges Image"
+                            class="h-full cursor-pointer hover:scale-[1.05] duration-100 object-cover">
+                    </div>
+                    <div id="p2box" class="text-white text-md my-2 text-center">
+                        Discover common challenges faced during interviews and how to overcome them with effective preparation techniques.
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="h-[1px] w-full bg-white absolute bottom-0"></div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div id="page3" class="w-[85%] mx-auto h-auto pb-16 relative">
+            <div class="flex justify-center my-16">
+                <h1 class="text-3xl text-lime-500">Testimonials</h1>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  lg:gap-y-16 gap-10">
+                <div id="p3test" class="bg-[#24E400] p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl text-white text-center mb-4">Suresh Kumar</h2>
+                    <p class="text-white text-md">"The advice I received from my seniors was invaluable during my
+                        placement preparation. Their insights helped me ace my interviews and land my dream job!"</p>
+                </div>
+                <div id="p3test" class="bg-[#24E400] p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl text-white text-center mb-4">Anjali Sharma</h2>
+                    <p class="text-white text-md">"Learning from the experiences of those who have been through the
+                        process made my preparation much more focused and effective."</p>
+                </div>
+                <div id="p3test" class="bg-[#24E400] p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl text-white text-center mb-4">Ravi Verma</h2>
+                    <p class="text-white text-md">"The mentorship and guidance provided by the community was a
+                        game-changer for me. I felt more confident in my abilities."</p>
+                </div>
+                <div id="p3test" class="bg-[#24E400] p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl text-white text-center mb-4">Priya Singh</h2>
+                    <p class="text-white text-md">"The practical tips I received helped me streamline my study plan and
+                        focus on the most important areas."</p>
+                </div>
+                <div id="p3test" class="bg-[#24E400] p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl text-white text-center mb-4">Arjun Patel</h2>
+                    <p class="text-white text-md">"Getting feedback from others who went through the process helped me
+                        avoid common mistakes and stay on track."</p>
+                </div>
+                <div id="p3test" class="bg-[#24E400] p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl text-white text-center mb-4">Meena Kapoor</h2>
+                    <p class="text-white text-md">"The resources shared by the community were incredibly helpful. It
+                        gave me a sense of direction in my preparations."</p>
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-white absolute bottom-0 mt-10"></div>
+        </div>
+
+
+        <!-- FAQ Section -->
+        <div id="page4" class="w-[85%] mx-auto pb-10 relative">
+            <div class="flex justify-center my-10">
+                <h1 class="text-3xl text-lime-500">FAQ</h1>
+            </div>
+            <div class="w-full flex flex-col gap-5">
+                <div id="q1"
+                    class="w-full h-[12vh] flex justify-between px-5 items-center text-white border border-white">
+                    <h1 class="text-2xl">What is TKR Interview Bits?</h1>
+                    <div class="text-2xl"><i class="ri-arrow-down-line"></i></div>
+                </div>
+                <div id="a1" class="w-full px-5 text-white text-lg mb-4 text-justify hidden">TKR Interview Bits is a
+                    platform
+                    where seniors from TKR share their interview experiences, tips, and advice to help juniors in their
+                    placement preparation journey.</div>
+
+                <div id="q2"
+                    class="w-full h-[12vh] flex justify-between px-5 items-center text-white border border-white">
+                    <h1 class="text-2xl">How can I access the content?</h1>
+                    <div class="text-2xl"><i class="ri-arrow-down-line"></i></div>
+                </div>
+                <div id="a2" class="w-full px-5 text-white text-lg mb-4 text-justify hidden">You can access the content
+                    by
+                    logging in or registering on the platform. The interviews and tips are available to all registered
+                    users.</div>
+
+                <div id="q3"
+                    class="w-full h-[12vh] flex justify-between px-5 items-center text-white border border-white">
+                    <h1 class="text-2xl">Can I contribute my interview experience?</h1>
+                    <div class="text-2xl"><i class="ri-arrow-down-line"></i></div>
+                </div>
+                <div id="a3" class="w-full px-5 text-white text-lg mb-4 text-justify hidden">Yes, if you're a senior who
+                    has
+                    completed your placement interviews, you can contribute your experience to help others.</div>
+            </div>
+
+            <div class="h-[1px] w-full bg-white absolute bottom-0"></div>
+        </div>
+
+        <!-- Developers Section -->
+        <div id="page5" class="w-[85%] mx-auto relative">
+            <div class="flex justify-center my-10">
+                <h1 class="text-3xl text-lime-500">Developers</h1>
+            </div>
+            <div class="w-full h-[85vh] flex lg:flex-row md:flex-col flex-col justify-between items-center">
+                <div class="lg:w-[50%] w-full flex flex-col justify-center items-center mb-8 md:mb-0">
+                    <div id="pic" class="w-[200px] h-[200px] rounded-full border border-lime-500">
+                        <img src="https://cdn.pixabay.com/photo/2024/01/19/18/03/ai-generated-8519540_1280.jpg" alt="Developer 1"
+                            class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <h1 class="text-xl text-lime-500 mt-5">Srisailam@ssl</h1>
+                    <p class="text-white text-md text-center mt-2">A senior CSE student passionate about coding and helping others with his knowledge of full-stack development.</p>
+                </div>
+                <div class="lg:w-[50%] w-full flex flex-col justify-center items-center">
+                    <div id="pic" class="w-[200px] h-[200px] rounded-full border border-lime-500">
+                        <img src="https://cdn.pixabay.com/photo/2024/04/10/07/02/man-8687405_1280.jpg" alt="Developer 2"
+                            class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <h1 class="text-xl text-lime-500 mt-5">Krishna@kc</h1>
+                    <p class="text-white text-md text-center mt-2">An experienced web developer and designer, Anjali has contributed extensively to building user-friendly interfaces.</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- <div class="h-[1px] mt-5 w-full bg-white "></div> -->
+
+        <%- include('./partials/footer') %>
+
+    </main>
